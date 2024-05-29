@@ -1,0 +1,80 @@
+[
+    {
+      "pk": 1,
+      "model": "products.product",
+      "fields": {
+        "sku": "avidi001",
+        "name": "Avidity Signature Strapback Hat",
+        "description": "Introducing the Avidity Signature Strapback Hat: a sleek, all-black cap that combines style and sophistication. This premium accessory features an embossed Avidity logo in striking white, adding a touch of elegance to its minimalist design.",
+        "price": 19.99,
+        "category": 6,
+        "rating": 4.6,
+        "image": ""
+      }
+    },
+    {
+        "pk": 2,
+        "model": "products.product",
+        "fields": {
+          "sku": "avidi001",
+          "name": "Avidity Signature Strapback Hat",
+          "description": "Introducing the Avidity Signature Strapback Hat: a sleek, all-black cap that combines style and sophistication. This premium accessory features an embossed Avidity logo in striking white, adding a touch of elegance to its minimalist design.",
+          "price": 19.99,
+          "category": 6,
+          "rating": 4.6,
+          "image": ""
+        }
+      },
+      {
+        "pk": 3,
+        "model": "products.product",
+        "fields": {
+          "sku": "avidi001",
+          "name": "Avidity Signature Strapback Hat",
+          "description": "Introducing the Avidity Signature Strapback Hat: a sleek, all-black cap that combines style and sophistication. This premium accessory features an embossed Avidity logo in striking white, adding a touch of elegance to its minimalist design.",
+          "price": 19.99,
+          "category": 6,
+          "rating": 4.6,
+          "image": ""
+        }
+      },
+      {
+        "pk": 4,
+        "model": "products.product",
+        "fields": {
+          "sku": "avidi001",
+          "name": "Avidity Signature Strapback Hat",
+          "description": "Introducing the Avidity Signature Strapback Hat: a sleek, all-black cap that combines style and sophistication. This premium accessory features an embossed Avidity logo in striking white, adding a touch of elegance to its minimalist design.",
+          "price": 19.99,
+          "category": 6,
+          "rating": 4.6,
+          "image": ""
+        }
+      },
+      {
+        "pk": 5,
+        "model": "products.product",
+        "fields": {
+          "sku": "avidi001",
+          "name": "Avidity Signature Strapback Hat",
+          "description": "Introducing the Avidity Signature Strapback Hat: a sleek, all-black cap that combines style and sophistication. This premium accessory features an embossed Avidity logo in striking white, adding a touch of elegance to its minimalist design.",
+          "price": 19.99,
+          "category": 6,
+          "rating": 4.6,
+          "image": ""
+        }
+      },
+      {
+        "pk": 6,
+        "model": "products.product",
+        "fields": {
+          "sku": "avidi001",
+          "name": "Avidity Signature Strapback Hat",
+          "description": "Introducing the Avidity Signature Strapback Hat: a sleek, all-black cap that combines style and sophistication. This premium accessory features an embossed Avidity logo in striking white, adding a touch of elegance to its minimalist design.",
+          "price": 19.99,
+          "category": 6,
+          "rating": 4.6,
+          "image": ""
+        }
+      }
+]
