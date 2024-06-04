@@ -7,44 +7,28 @@
         "friendly_name": "Activewear"
       }
     },
-    {
+      {
         "pk": 2,
         "model": "products.category",
         "fields": {
-          "name": "activewear",
-          "friendly_name": "Activewear"
+          "name": "new_arrivals",
+          "friendly_name": "New Arrivals"
         }
       },
       {
         "pk": 3,
         "model": "products.category",
         "fields": {
-          "name": "activewear",
-          "friendly_name": "Activewear"
+          "name": "deals",
+          "friendly_name": "Deals"
         }
       },
       {
         "pk": 4,
         "model": "products.category",
         "fields": {
-          "name": "activewear",
-          "friendly_name": "Activewear"
-        }
-      },
-      {
-        "pk": 5,
-        "model": "products.category",
-        "fields": {
-          "name": "activewear",
-          "friendly_name": "Activewear"
-        }
-      },
-      {
-        "pk": 6,
-        "model": "products.category",
-        "fields": {
-          "name": "activewear",
-          "friendly_name": "Activewear"
+          "name": "clearance",
+          "friendly_name": "Clearance"
         }
       }
 ]
