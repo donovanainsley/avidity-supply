@@ -1,0 +1,1 @@
+Avidity Supply Confirmation for Order Number {{ order.order_number }}
