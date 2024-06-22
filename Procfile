@@ -1,1 +1,1 @@
-web: gunicorn avidity-supply.wsgi.application
+web: gunicorn avidity_supply.wsgi.application
