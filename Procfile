@@ -1,0 +1,1 @@
+web: gunicorn avidity-supply.wsgi.application
