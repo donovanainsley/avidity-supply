@@ -26,6 +26,12 @@
                 <form method="POST" action="" class="form mb-2">
                     {% csrf_token %}
                     {{ form|crispy }}
+                    <div>
+                        <a class="btn btn-outline-black rounded-0 mt-2" href="{% url 'home' %}">Cancel</a>
+                        <button class="btn btn-black  text-uppercase rounded-0 mt-2" type="submit">
+                            <i class="fa-solid fa-envelope"></i>
+                            <span>Submit</span>
+                    </div>
                 </form>
             </div>
         </div>
