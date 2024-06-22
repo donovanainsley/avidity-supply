@@ -9,6 +9,8 @@ def contact_us(request):
         form = ContactForm(request.POST)
         if form.is_valid():
             form.save()
+            messages.success(request, 'Message delivered.\
+                We\'ll responed within 2 business days.')
             return redirect('contact_success')
     else:
         form = ContactForm()
