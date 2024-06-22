@@ -13,3 +13,8 @@ def contact_us(request):
     else:
         form = ContactForm()
     return render(request, 'contact/contact_us.html', {'form': form})
+
+
+def contact_success(request):
+    """ A view to render contact success page """
+    return render(request, 'contact/contact_success.html')
