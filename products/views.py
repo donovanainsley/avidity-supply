@@ -63,9 +63,11 @@ def product_detail(request, product_id):
     """ A view to show individual product details """
 
     product = get_object_or_404(Product, pk=product_id)
+    latest_review = product.review_set.order_by('-id').first()
 
     context = {
         'product': product,
+        'latest_review': latest_review,
     }
 
     return render(request, 'products/product_detail.html', context)
