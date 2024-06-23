@@ -33,7 +33,6 @@ class Review(models.Model):
     product = models.ForeignKey(Product, on_delete=models.CASCADE)
     title = models.CharField(max_length=200)
     content = models.TextField()
-    rating = models.PositiveSmallIntegerField()
 
     def __str__(self):
         return self.product.name

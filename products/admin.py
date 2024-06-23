@@ -26,7 +26,6 @@ class ReviewAdmin(admin.ModelAdmin):
         'product', 
         'title', 
         'content', 
-        'rating',
         )
 
 

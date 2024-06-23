@@ -140,7 +140,7 @@ def delete_product(request, product_id):
 
 
 def add_review(request, product_id):
-    """Added product review """
+    """Add product review"""
     product = get_object_or_404(Product, pk=product_id)
     if request.method == 'POST':
         form = ReviewForm(request.POST)
@@ -148,13 +148,17 @@ def add_review(request, product_id):
             review = form.save(commit=False)
             review.product = product
             review.save()
+            messages.success(request, 'Your review has been added!')
             return redirect('product_detail', product_id=product.id)
+        else:
+            messages.error(request, 'Error. Submission failed. \
+            Please try again.')
     else:
         form = ReviewForm()
 
-        template = 'products/add_review.html'
-        context = {
-            'form': form,
-            'product': product,
-        }
+    template = 'products/add_review.html'
+    context = {
+        'form': form,
+        'product': product,
+    }
     return render(request, template, context)
