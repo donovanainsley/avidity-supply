@@ -31,7 +31,7 @@ class Product(models.Model):
 
 class Review(models.Model):
     product = models.ForeignKey(Product, on_delete=models.CASCADE)
-    Title = models.CharField(max_length=200)
+    title = models.CharField(max_length=200)
     content = models.TextField()
     rating = models.PositiveSmallIntegerField()
 

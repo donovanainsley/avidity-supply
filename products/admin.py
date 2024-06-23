@@ -32,4 +32,4 @@ class ReviewAdmin(admin.ModelAdmin):
 
 admin.site.register(Product, ProductAdmin)
 admin.site.register(Category, CategoryAdmin)
-admin.site.register(Category, ReviewAdmin)
+admin.site.register(Review, ReviewAdmin)
