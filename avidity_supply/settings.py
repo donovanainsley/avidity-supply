@@ -32,6 +32,9 @@ DEBUG = 'DEVELOPMENT' in os.environ
 ALLOWED_HOSTS = ['8000-donovanains-aviditysupp-hl5cpl3a2le.ws-eu114.gitpod.io',
                  'avidity-supply-1597743384d8.herokuapp.com']
 
+CSRF_TRUSTED_ORIGINS = ['https://avidity-supply-1597743384d8.herokuapp.com',
+                        'https://ami.responsivedesign.is']
+
 
 # Application definition
 
