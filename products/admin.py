@@ -21,11 +21,12 @@ class CategoryAdmin(admin.ModelAdmin):
         'name',
     )
 
+
 class ReviewAdmin(admin.ModelAdmin):
     list_display = (
-        'product', 
-        'title', 
-        'content', 
+        'product',
+        'title',
+        'content',
         )
 
 

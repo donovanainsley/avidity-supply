@@ -1,6 +1,7 @@
 from django import forms
 from .models import Contact
 
+
 class ContactForm(forms.ModelForm):
     class Meta:
         model = Contact
@@ -14,9 +15,10 @@ class ContactForm(forms.ModelForm):
 
         super().__init__(*args, **kwargs)
         placeholders = {
-            'contact_name' : 'Full Name', 
-            'contact_email': 'Email Address', 
+            'contact_name': 'Full Name',
+            'contact_email': 'Email Address',
             'contact_message': 'Your Message',
+
         }
 
         self.fields['contact_name'].widget.attrs['autofocus'] = True
