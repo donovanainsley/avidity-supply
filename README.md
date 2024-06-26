@@ -71,10 +71,6 @@ The result is a functional, elegant e-commerce platform that showcases our stree
 | Store Owner/Admin | Delete a product        | Remove items that are no longer for sale                          |
 | Store Owner/Admin | Delete a product review | Remove product review if deemed inaccuarte or entered incorrectly    |
 
-
-
-
-
 ### Database Schema
 
 Avidity Supply uses several modelas throughout the site as displayed below.
@@ -91,6 +87,45 @@ In future implementations I woukd like to:
  - Allow users to register/login using their social accounts, such as Instagram and Google.
  - Provide users with a wishlist for a future purchase.
  - Give users the option to sign up for a newsletter that keeps them updated on new products and latest offers.
+
+## Technologies Used
+
+### Languages
+
+- HTML
+- CSS
+- Javascript
+- Python
+
+### Databases
+
+- SQLite3 (During Development)
+- ElephantSQL (Duuring Production)
+
+### Frameworks 
+
+  - [Django](https://www.djangoproject.com/) - enables rapid development of secure and scalable web applications.
+  - [Bootstrap](https://getbootstrap.com/) - used for styling and responsiveness
+
+### Libraries, Programs & Packages
+
+- [boto3](https://pypi.org/project/boto3/) - Allows connection to AWS S3
+- [Django-Allauth](https://django-allauth.readthedocs.io/en/latest/installation.html) - Used to simplify user authentication, registration, and account management
+- [Django Crispy Forms](https://django-crispy-forms.readthedocs.io/en/latest/) - For Django form styling
+- [Font Awesome](https://fontawesome.com/) - For the icons on the website
+- [Git](https://git-scm.com/) - For version control
+- [GitHub](https://github.com/) - To store website files and repository for the website
+- [Google Dev Tools](https://developer.chrome.com/docs/devtools/) - Used to troubleshoot, test features, and solve issues with responsiveness and styling
+- [Gmail](https://mail.google.com/) - As my email hosting provider
+- [Gunicorn](https://gunicorn.org/) - As an HTTP server within my Heroku app
+- [Heroku](https://www.heroku.com/) - To host my application
+- [Lucidchart](https://lucid.app/) - Used to create the database schema
+- [Mini Webtool](https://miniwebtool.com/django-secret-key-generator/) - To generate a secret key for Django
+- [Pillow](https://pillow.readthedocs.io/en/stable/) - For image processing in Django
+- [Psycopg2](https://pypi.org/project/psycopg2/) - To more easily manage my PostgreSQL database using Python
+- [Stripe](https://stripe.com/gb) - For payment processing
+
+
 
 ## Deployment
 
