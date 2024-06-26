@@ -91,6 +91,10 @@ All python code created or automatically generated was validated and corrected a
 
 ### Manual Testing
 
+#### Testing User Stories
+
+
+
 #### Lighthouse
 
 The Chrome Developer Tools lighthouse feature was employed to assess performance, adherence to best practices, accessibility, and Search Engine Optimisation (SEO). Both desktop and mobile tests were conducted.

@@ -179,9 +179,11 @@ Description: - Users can make an enquiry by selecting the "Contact Us" button, f
 
 In future implementations I woukd like to:
  - Allow users to register/login using their social accounts, such as Instagram and Google.
- - Add a quick buy button, so users don't always have to click the product and go into the product detail page.
+ - Add a quick buy button, so users don't always have to click the product and go into the product detail page before adding to bag.
  - Provide users with a wishlist for a future purchase.
  - Give users the option to sign up for a newsletter that keeps them updated on new products and latest offers.
+ - Add a favicon with the e-commerce logo.
+ - Additional Defensive programming - add a modal before any delete function for user/store owner.
 
 ## Technologies Used
 
