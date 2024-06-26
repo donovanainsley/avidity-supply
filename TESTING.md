@@ -91,6 +91,29 @@ All python code created or automatically generated was validated and corrected a
 
 ## Manual Testing
 
+### Lighthouse
+
+The Chrome Developer Tools lighthouse feature was employed to assess performance, adherence to best practices, accessibility, and Search Engine Optimisation (SEO). Both desktop and mobile tests were conducted.
+
+- Several lighthouse tests performed below where I'd like them to be but due to time constraints, I was unable to improve the score but would in future implementations.
+
+| Page | Results |
+| --- | --- |
+| Home | <img src="documentation/testing/home-lighthouse-desktop.png" alt=""> |
+| Home (mobile) | <img src="documentation/testing/home-lighthouse-mobile.png" alt=""> |
+| Products | <img src="documentation/testing/products-lighthouse-desktop.png"> |
+| Products (mobile) | <img src="documentation/testing/products-lighthouse-mobile.png"> |
+| Bag | <img src="documentation/testing/bag-lh-desktop.png" alt=""> |
+| Bag (mobile) | <img src="documentation/testing/bag-lh-mobile.png" alt=""> |
+| Checkout | <img src="documentation/testing/checkout-lh-desktop.png" alt=""> |
+| Checkout (mobile) | <img src="documentation/testing/checkout-lh-mobile.png" alt=""> |
+| Profile | <img src="documentation/testing/profile-lh-desktop.png" alt=""> |
+| Profile (mobile) | <img src="documentation/testing/profile-lh-mobile.png" alt=""> |
+| Contact | <img src="documentation/testing/contact-lighthouse-desktop.png" alt=""> |
+| Contact (mobile) | <img src="documentation/testing/contact-lighthouse-mobile.png" alt=""> |
+| Add Review | <img src="documentation/testing/addreview-lh-desktop.png" alt=""> |
+| Add Review (mobile) | <img src="documentation/testing/addreview-lh-mobile.png" alt=""> |
+
 ### Devices used for testing:
 - MacBook Pro
 - Samsung Galaxy S23+
