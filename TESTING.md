@@ -88,3 +88,17 @@ All python code created or automatically generated was validated and corrected a
 <details><summary>Python Validation</summary>
 <img src="documentation/testing/python-validation.png" alt="">
 </details>
+
+## Manual Testing
+
+### Devices used for testing:
+- MacBook Pro
+- Samsung Galaxy S23+
+- Samsung Galaxy S23
+- iPhone 14
+
+### Browsers Used for Testing
+- Google Chrome
+- Monzila FireFox
+- Safari 
+No issues found
