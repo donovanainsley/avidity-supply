@@ -10,6 +10,88 @@ The result is a functional, elegant e-commerce platform that showcases our stree
 
 [Access the live site here.](https://avidity-supply-1597743384d8.herokuapp.com/)
 
+## User Experience (UX)
+
+### User Stories
+
+#### VIEWING & NAVIGATION 
+| As a    | I want to be able to        | So that I can                                                                           |
+|---------|--------------------------------|--------------------------------------------------------------------------------------------|
+| Shopper | Easily navigate the site       | Find products to purchase                                                                  |
+| Shopper | View products by category      | Find specific items I am interested in without having to scroll through all products       |
+| Shopper | View details of each product   | Learn more about each product                                                              |
+| Shopper | View the items I have in my bag| Check whether I still wish to purchase the items and amend the quantity if required        |
+
+#### REGISTRATION & USER ACCOUNTS
+| As a    | I want to be able to                     | So that I can                                         |
+|---------|---------------------------------------------|---------------------------------------------------------|
+| Shopper | Register an account                         | Have an account with the site and view my profile        |
+| Registered User | Receive an email to confirm my registration | Verify my account was created successfully               |
+| Registered User | Log in and out                              | Keep my account information secure                       |
+| Registered User | View a profile page                         | Set a default delivery address and view previous orders  |
+| Registered User | Reset my password                           | Recover my account                                       |
+
+#### SORTING & SEARCHING
+| As a    | I want to be able to                      | So that I can                              |
+|---------|---------------------------------------------|----------------------------------------------|
+| Shopper | Search for a product by name or description | Find a specific product I'd like to purchase |
+| Shopper | Find products from a specific category      | Only see products from that category         |
+
+#### PURCHASING & CHECKOUT
+| As a    | I want to be able to                                     | So that I can                                                                         |
+|---------|------------------------------------------------------------|-----------------------------------------------------------------------------------------|
+| Shopper | Easily select the quantity of a product when purchasing it  | Ensure I don't accidentally select the wrong product quantity                            |
+| Shopper | View all items in my bag                                    | Make sure I haven't accidentally added the wrong product in my bag                       |
+| Shopper | Adjust the quantity of individual items in my bag           | Easily make changes to my purchase before checkout                                       |
+| Shopper | Easily enter my payment information                         | Check out quickly and with no hassle                                                    |
+| Shopper | Save all address info                                       | I don't have to enter them again on my next order                                        |
+| Shopper | View an order confirmation after checkout                   | Make sure my order was successfully placed and double check that all details are correct  |
+| Shopper | Save all orders on my Profile                               | Easily access all orders anytime                                                        |
+| Shopper | Receive an email confirmation after checking out            | Keep the confirmation of what I've purchased for my records                              |
+
+
+#### REVIEW
+| As a    | I want to be able to     | So that I can                                         |
+|---------|------------------------------|---------------------------------------------------------|
+| Shopper | Read product reviews         | Find out what other shoppers think about the product     |
+| Shopper | Add a product review         | Share my experience using the product with other shoppers|
+| Registered User | Delete a review if enetered incorrectly        | Share my experience using the product with other shoppers|
+| Store Owner | Delete a review      | Remove product review if deemed inaccuarte or entered incorrectly |
+
+#### CONTACT
+| As a    | I want to be able to  | So that I can                          |
+|---------|--------------------------|------------------------------------------|
+| Shopper/User | Contact the admin team   | Make an enquiry         |
+
+#### ADMIN & STORE MANAGEMENT
+| As a               | I want to be able to  | So that I can                                                   |
+|-------------------|-------------------------|-------------------------------------------------------------------|
+| Store Owner/Admin | Add a product           | Add new items to my store                                         |
+| Store Owner/Admin | Edit a product          | Update product details                                            |
+| Store Owner/Admin | Delete a product        | Remove items that are no longer for sale                          |
+| Store Owner/Admin | Delete a product review | Remove product review if deemed inaccuarte or entered incorrectly    |
+
+
+
+
+
+### Database Schema
+
+Avidity Supply uses several modelas throughout the site as displayed below.
+
+![](documentation/avidity_supply_schema.png)
+
+#### Typography
+
+Oswald is the main font used throughout the website which provides a highly-readable text at all sizes.
+
+### Future Features
+
+In future implementations I woukd like to:
+ - Allow users to register/login using their social accounts, such as Instagram and Google.
+ - Provide users with a wishlist for a future purchase.
+ - Give users the option to sign up for a newsletter that keeps them updated on new products and latest offers.
+
 ## Deployment
 
 The project was deployed to [Heroku](https://dashboard.heroku.com/) using the following steps:
