@@ -1,12 +1,12 @@
 # Avidity Supply
 
-## Testing
-
 ![Website on different screen sizes](media/amir_avidity_supply.png)
 
-## Code Validation
+## Testing
 
-### HTML
+### Code Validation
+
+#### HTML
 The [W3C Markup Validator](https://validator.w3.org/) service was used to validate the site's pages to ensure there were no syntax errors.
 
 <details><summary>Home</summary>
@@ -53,7 +53,7 @@ The [W3C Markup Validator](https://validator.w3.org/) service was used to valida
 <img src="documentation/testing/html-validation.png" alt="">
 </details>
 
-### CSS
+#### CSS
 The [W3 CSS Validator](https://jigsaw.w3.org/css-validator/) was used to validate custom css styling.
 
 <details><summary>base.css</summary>
@@ -68,7 +68,7 @@ The [W3 CSS Validator](https://jigsaw.w3.org/css-validator/) was used to validat
 <img src="documentation/testing/css-validation.png" alt="">
 </details>
 
-### JS
+#### JS
 [JS HINT](https://jshint.com/) was used to test JaveaScript.
 
 <details><summary>stripe_element.js</summary>
@@ -79,7 +79,7 @@ The [W3 CSS Validator](https://jigsaw.w3.org/css-validator/) was used to validat
 <img src="documentation/testing/countryfield-validation.png" alt="">
 </details>
 
-### Python
+#### Python
 [CI Pythong Linter](https://pep8ci.herokuapp.com/#) has been used to validate my python code and esnured it's pep8 compliant.
 
 All python code created or automatically generated was validated and corrected and now displays no errors, so I have only provided the single screenshot.
@@ -89,13 +89,13 @@ All python code created or automatically generated was validated and corrected a
 <img src="documentation/testing/python-validation.png" alt="">
 </details>
 
-## Manual Testing
+### Manual Testing
 
-### Lighthouse
+#### Lighthouse
 
 The Chrome Developer Tools lighthouse feature was employed to assess performance, adherence to best practices, accessibility, and Search Engine Optimisation (SEO). Both desktop and mobile tests were conducted.
 
-- Several lighthouse tests performed below where I'd like them to be but due to time constraints, I was unable to improve the score but would in future implementations.
+- Several lighthouse tests performed, were below where I'd like them to be but due to time constraints, I was unable to improve the score but would in future implementations.
 
 | Page | Results |
 | --- | --- |
@@ -114,13 +114,13 @@ The Chrome Developer Tools lighthouse feature was employed to assess performance
 | Add Review | <img src="documentation/testing/addreview-lh-desktop.png" alt=""> |
 | Add Review (mobile) | <img src="documentation/testing/addreview-lh-mobile.png" alt=""> |
 
-### Devices used for testing:
+#### Devices used for testing:
 - MacBook Pro
 - Samsung Galaxy S23+
 - Samsung Galaxy S23
 - iPhone 14
 
-### Browsers Used for Testing
+#### Browsers Used for Testing
 - Google Chrome
 - Monzila FireFox
 - Safari 
