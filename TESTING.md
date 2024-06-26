@@ -67,3 +67,24 @@ The [W3 CSS Validator](https://jigsaw.w3.org/css-validator/) was used to validat
 <details><summary>profile.css</summary>
 <img src="documentation/testing/css-validation.png" alt="">
 </details>
+
+### JS
+[JS HINT](https://jshint.com/) was used to test JaveaScript.
+
+<details><summary>stripe_element.js</summary>
+<img src="documentation/testing/stripe-element-validation.png" alt="">
+</details>
+
+<details><summary>countryfield.js</summary>
+<img src="documentation/testing/countryfield-validation.png" alt="">
+</details>
+
+### Python
+[CI Pythong Linter](https://pep8ci.herokuapp.com/#) has been used to validate my python code and esnured it's pep8 compliant.
+
+All python code created or automatically generated was validated and corrected and now displays no errors, so I have only provided the single screenshot.
+- Note - some lines were too long and in an effort not to causes issues with my project '# NOQA' was used.
+
+<details><summary>Python Validation</summary>
+<img src="documentation/testing/python-validation.png" alt="">
+</details>
