@@ -81,10 +81,105 @@ Avidity Supply uses several modelas throughout the site as displayed below.
 
 Oswald is the main font used throughout the website which provides a highly-readable text at all sizes.
 
+## Features
+
+#### NAVBAR
+
+<details><summary>Nav Bar</summary>
+<img src="documentation/nav-bar.png" alt="">
+</details>
+
+<details><summary>Mobile Nav (Closed)</summary>
+<img src="documentation/mobile-nav-closed.png" alt="">
+</details>
+
+<details><summary>Mobile Nav (Open)</summary>
+<img src="documentation/mobile-nav-open.png" alt="">
+</details>
+
+<details><summary>Message Toast</summary>
+<img src="documentation/toast.png" alt="">
+</details>
+
+#### Home
+
+<details><summary>All Devices</summary>
+<img src="media/amir_avidity_supply.png" alt="">
+</details>
+
+#### Products
+
+<details><summary>Products - All Devices</summary>
+<img src="documentation/products-all-devices.png" alt="">
+Description: The product page contains cards for each product. Users can find the name, category and price of the product. Superusers can also find a delete and edit button on the cards.  
+</details>
+
+<details><summary>Product Detail - All Devices</summary>
+<img src="documentation/product-detail-all-devices.png" alt="">
+Description: - When a user clicks on a product card on the products page, it opens the product detail page where they can view detailed information about the product, including reviews from other users. Users can add the product to their basket from this page. Additionally, they can submit a product review by clicking the "add review" button, filling out a form that opens on a separate page.
+</details>
+
+<details><summary>Product Managment Page</summary>
+<img src="documentation/product-management.png" alt="">
+Description: When a superuser is logged in they can find a product management option on the account dropdown. This takes them to the "add product page" where they can fill in a form and add a new product on the website.
+</details>
+
+#### Profile
+
+<details><summary>Profile Page</summary>
+<img src="documentation/profile.png" alt="">
+Description:  Users can save their contact and delivery information for future orders.
+</details>
+
+#### Bag
+
+<details><summary>Bag Page</summary>
+<img src="documentation/bag-page.png" alt="">
+DescriptionL: - Users can view all items they've added to their bag including the total price. They also have the ability to increase or decrease the quantity of an item to be ordered.
+</details>
+
+
+#### Checkout
+
+<details><summary>Checkout Page</summary>
+<img src="documentation/checkout.png" alt="">
+Description: - Users are required to fill out a form with all of their details, to place an order.
+</details>
+
+#### Contact
+
+<details><summary>Contact Page</summary>
+<img src="documentation/contact.png" alt="">
+Description: - Users can make an enquiry by selecting the "Contact Us" button, found on the home page.
+</details>
+
+
+
+#### Sign-Up/Login
+
+- Users have the ability to register, login and out by clicking on the account icon.
+
+<details><summary>Sign Up</summary>
+<img src="documentation/signup.png" alt="">
+</details>
+
+<details><summary>Login</summary>
+<img src="documentation/login.png" alt="">
+</details>
+
+<details><summary>Logout</summary>
+<img src="documentation/logout.png" alt="">
+</details>
+
+<details><summary>Reset Password</summary>
+<img src="documentation/reset.png" alt="">
+</details>
+
 ### Future Features
 
 In future implementations I woukd like to:
  - Allow users to register/login using their social accounts, such as Instagram and Google.
+ - Add a quick buy button, so users don't always have to click the product and go into the product detail page.
  - Provide users with a wishlist for a future purchase.
  - Give users the option to sign up for a newsletter that keeps them updated on new products and latest offers.
 
