@@ -220,7 +220,9 @@ In future implementations I woukd like to:
 - [Psycopg2](https://pypi.org/project/psycopg2/) - To more easily manage my PostgreSQL database using Python
 - [Stripe](https://stripe.com/gb) - For payment processing
 
+## Testing
 
+Please see [TESTING.md](TESTING.md) for all testing performed.
 
 ## Deployment
 
