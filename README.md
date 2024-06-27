@@ -59,9 +59,9 @@ The result is a functional, elegant e-commerce platform that showcases our stree
 | Store Owner | Delete a review      | Remove product review if deemed inaccuarte or entered incorrectly |
 
 #### CONTACT
-| As a    | I want to be able to  | So that I can                          |
-|---------|--------------------------|------------------------------------------|
-| Shopper/User | Contact the admin team   | Make an enquiry         |
+| As a    | I want to be able to  | So that I can | 
+|---------|-----------------------|---------------|
+| Shopper/User | Contact the admin team | Make an enquiry | 
 
 #### ADMIN & STORE MANAGEMENT
 | As a               | I want to be able to  | So that I can                                                   |
@@ -69,7 +69,7 @@ The result is a functional, elegant e-commerce platform that showcases our stree
 | Store Owner/Admin | Add a product           | Add new items to my store                                         |
 | Store Owner/Admin | Edit a product          | Update product details                                            |
 | Store Owner/Admin | Delete a product        | Remove items that are no longer for sale                          |
-| Store Owner/Admin | Delete a product review | Remove product review if deemed inaccuarte or entered incorrectly    |
+| Store Owner/Admin | Delete a product review | Remove product review if deemed inaccuarte or entered incorrectly |
 
 ### Database Schema
 
