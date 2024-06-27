@@ -181,6 +181,6 @@ The Chrome Developer Tools lighthouse feature was employed to assess performance
 
 #### Browsers Used for Testing
 - Google Chrome
-- Monzila FireFox
+- Mozilla FireFox
 - Safari 
 No issues found
